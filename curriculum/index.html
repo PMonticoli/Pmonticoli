@@ -13,6 +13,28 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#div1").click(function(){
+                $("#div2").slideToggle();
+            })
+        });        
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("#btn-redes").click(function(){
+          $("#red-social").fadeToggle("slow");
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("#div-objetivo").mouseenter(function(){
+          swal("Esta es mi objetivo profesional");
+        })
+      });
+    </script>
   </head>
 
   <body>
@@ -21,8 +43,8 @@
             <div class="col col-md-12 col-lg-12">
               <div class="grid-curriculum">
                   <div class="caja c1 imagen-c1">
-                    <img
-                      class="foto-curriculum" src="/imagenes/foto-cv.jpeg" alt="foto curriculum"/>
+                      <img
+                      id="foto-curriculum" src="/imagenes/foto-cv.jpeg" alt="foto curriculum"/>
                     <br />
                     <br />
                     <h2>Información Personal</h2>
@@ -34,13 +56,15 @@
                       Dirección: Intendente Cespedes 245- <br> Jesús María.
                     <br>
                     <br>
-                    <h2>Objetivo Profesional</h2>
-                    <p>Unirme a un equipo en el que pueda poner en <br>
-                       práctica los conocimientos adquiridos durante mis <br>
-                        años de formación, crecer en experiencia y <br>
-                         desarrollarme personal y profesionalmente dentro de <br>
-                         una empresa que ofrezca oportunidades <br>
-                      en función de mi desempeño, logros y aportaciones.</p>
+                    <div id="div-objetivo">
+                      <h2>Objetivo Profesional</h2>
+                      <p>Unirme a un equipo en el que pueda poner en <br>
+                         práctica los conocimientos adquiridos durante mis <br>
+                          años de formación, crecer en experiencia y <br>
+                           desarrollarme personal y profesionalmente dentro de <br>
+                           una empresa que ofrezca oportunidades <br>
+                        en función de mi desempeño, logros y aportaciones.</p>
+                    </div>
                   </div>
             
                   <div class="caja c2 img-header">
@@ -70,7 +94,7 @@
                         (18 materias aprobadas y 5 regularizadas).
                       </li>
                       <li>
-                        Hoy en día cursando Tecnicatura en Programacion-UTN (Universidad
+                        Actualmente cursando segundo año de la Tecnicatura en Programacion-UTN (Universidad
                         Tecnológica de Córdoba).
                       </li>
                     </ul>
@@ -80,21 +104,37 @@
                       <li>Ingles: Intermedio/Avanzado.</li>
                       <li>Cambridge English: Preliminary English Test</li>
                       <li>Actualmente estudiando Advanced Preliminary English Test.</li>
-                      <li>Lenguajes Programacíon y Base de Datos<br> <br>                      
-                        <img  class="imagen-lenguaje" src="/imagenes/csharp.jpg">  C Sharp <br>
-                      <img class="imagen-lenguaje" src="/imagenes/java.jpg">  Java <br>
-                      <img class="imagen-lenguaje" src="/imagenes/html-css-js.jpg">   HTML- CSS-JavaScript <br> 
-                      <img class="imagen-lenguaje" src="/imagenes/mysql.jpg "> MySql. <br>
-                      <img class="imagen-lenguaje" src="/imagenes/mongodb.jpg"> MongoDb.
-                    </li>
-                    </ul>
-                    <h2 class="estilos-h2">Contacto</h2>
-                    <ul>
-                      <li>Teléfono: 3525-507920</li>
-                      <li>E-mail: pablomonticoli@hotmail.com</li>
-                      <li>GitHub: https://github.com/PMonticoli</li>
-                    </ul>
-                  </div>
+                      <li>Lenguajes de Programacion adquiridos</li>
+                      </ul>
+                      <ul>
+                         <div id="div1" class="panel">Click para hacer slide down de los lenguajes</div>
+                         <div id="div2" class="panel">
+                          <img class="imagen-lenguaje" src="/imagenes/csharp.jpg">  C Sharp. <br>
+                          <img class="imagen-lenguaje" src="/imagenes/java.jpg">  Java. <br>
+                          <img class="imagen-lenguaje" src="/imagenes/html-css-js.jpg">   HTML- CSS-JavaScript. <br> 
+                          <img class="imagen-lenguaje" src="/imagenes/mysql.jpg "> MySql. <br>
+                          <img class="imagen-lenguaje" src="/imagenes/mongodb.jpg"> MongoDb.
+                          </div>
+                      </ul>
+                    <div id="div-contacto">
+                      <h2 class="estilos-h2">Contacto</h2>
+                      <ul>
+                        <li>Teléfono: 3525-507920</li>
+                        <li>E-mail: pablomonticoli@hotmail.com</li>
+                        <li>GitHub: https://github.com/PMonticoli</li>
+                      </ul>
+                      <ul>
+                        <button id="btn-redes" type="button" class="btn btn-outline-primary">Otras Redes de Contacto</button>
+                        <br> <br>
+                        <div id="red-social">
+                          <a class="fa fa-facebook" href="https://www.facebook.com/pablito.monticoli/"></a>
+                          <a class="fa fa-twitter" href="https://twitter.com/PMonticoli"></a>
+                          <a class="fa fa-instagram" href="https://www.instagram.com/pablomonticoli/"></a>
+                        </div>                                
+                      </ul>
+                    </div>
+
+                 </div>
                 </div>
             </div>
         </div>
@@ -107,13 +147,14 @@
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"
-  ></script>
-
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/342fa947c7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
   -->
 </body>
+
 </html>
