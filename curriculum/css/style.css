@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.h1,h2,h4{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.grid-curriculum{
+display: grid;
+width: 100%;
+grid-template-areas: 'a a a'
+                     'b c c'
+                     'b c c';
+}
+#foto-curriculum{
+    border-radius: 50%;
+    border: solid 1px black;
+    width: 200px;    
+    height: 200px;
+}
+.c1{
+    grid-area: b;
+    text-align: center;   
+}
+.imagen-c1{
+    background-image: url(/imagenes/fondo-c1.webp);
+}
+.c2{
+    grid-area: a;
+    background-image: url(/imagenes/fondo-2.jpg);
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+    padding: 2rem;
+
+}
+.c3{
+    grid-area: c;
+    background-color:white;
+    justify-content: center;
+    margin-left: 1px;
+}
+.estilos-h2{
+    background-color: rgb(137, 210, 237);
+    color: black;
+}
+.imagen-lenguaje{
+    width: 50px;
+    height: 50px;
+}
+.panel{
+    padding:4px;
+    background-color: rgb(137, 210, 237);
+    border: solid 1px cornflowerblue;
+}
+#div2{
+    padding:15px;
+    display:none;
+}
+#div1{
+    background-color: rgb(137, 210, 237);
+}
+
+#btn-redes
+{
+    background-color: rgb(137, 210, 237);
+}
+
+#red-social{
+    display: grid;
+    gap:2.5rem;
+    display: none;
+}
+#red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color:#fff;
+    background-color: rgb(59, 152, 185);
+    text-align: center;
+}
+#red-social a:hover{
+    color:aqua;
+}
