@@ -25,41 +25,15 @@
             <h1>Formulario de contacto</h1>
             <div class="form-group col col-lg-6 col-sm-12">
               <label for="txtEmail">Email</label>
-              <input
-                type="email"
-                name="txtEmail"
-                class="form-control is-invalid"
-                id="txtEmail"
-                placeholder="Ingrese su Email"
-                required=""
-              />
-              <div class="invalid-feedback">
-                Ingrese un email valido por favor.
-              </div>
+              <input type="email"name="txtEmail" class="form-control"id="txtEmail"placeholder="Ingrese su Email" required/>
             </div>
             <div class="form-group col col-lg-6 col-sm-12">
               <label for="txtNombre">Nombre</label>
-              <input
-                type="text"
-                class="form-control is-invalid"
-                name="txtNombre"
-                id="txtNombre"
-                placeholder="Ingrese su Nombre"
-                required=""
-              />
-              <div class="invalid-feedback">Ingrese su nombre por favor.</div>
+              <input type="text" class="form-control" name="txtNombre" id="txtNombre" placeholder="Ingrese su Nombre"required/>
             </div>
             <div class="form-group col col-lg-6 col-sm-12">
               <label for="txtApellido">Apellido</label>
-              <input
-                type="text"
-                class="form-control is-invalid"
-                name="txtApellido"
-                id="txtApellido"
-                placeholder="Ingrese su Apellido"
-                required=""
-              />
-              <div class="invalid-feedback">Ingrese su apellido por favor.</div>
+              <input type="text"class="form-control" name="txtApellido"id="txtApellido"placeholder="Ingrese su Apellido"required/>
             </div>
             <div class="form-group col">
               <label for="txtDescripcion">Descripcíon</label>
@@ -67,20 +41,14 @@
               <p id="contador"></p>
             </div>
             <div class="form-group col-12">
+              <button id="btnGuardar"type="button"class="btn btn-success"onclick="validarForm();"> Guardar</button> <br> <br>
                <button id="btnEnviar"type="submit"class="btn btn-success"onclick="EnviarForm();"> Enviar</button>
             </div>
           </div>
           <br>
           <br>
-          <br><br> <br>         
+          <br><br> <br> <br> <br>    
         </form>
-
-        <script>
-            function contadorDeCaracteres() {
-              let txtDescripcion = document.getElementById("txtDescripcion");
-              document.getElementById("contador").innerHTML =txtDescripcion.value.length;
-            }
-          </script>
       </div>
     </div>
 
@@ -97,7 +65,43 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ 
+    <script>
+      function validarForm() {
+      var txtNombre = document.getElementById('txtNombre');
+      var txtApellido = document.getElementById('txtApellido');
+      var txtDescripcion = document.getElementById('txtDescripcion');
 
+      if (txtNombre.value === '') {
+        swal('El campo Nombre es requerido!');
+        return false;
+      }
+
+      if (txtApellido.value === '') {
+        swal('El campo Apellido es requerido!');
+        return false; 
+      }
+
+      if (txtDescripcion.value === '') {
+        swal('El campo Descripción es requerido!');
+        return false;
+      } else if (txtDescripcion.value.length < 10) {
+        swal('El campo Descripción tiene un límite mínimo de 10 caracteres!');
+        return false;
+      }else if (txtDescripcion.value.length > 100) {
+        swal('El campo Descripción tiene un límite de 100 caracteres!');
+        return false;
+      }
+
+    }
+    </script>
+
+  <script>
+    function contadorDeCaracteres() {
+      let txtDescripcion = document.getElementById("txtDescripcion");
+      document.getElementById("contador").innerHTML =txtDescripcion.value.length;
+    }
+  </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

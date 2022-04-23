@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 5 Librerias Javascript</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#div1").hover(function(){
+                $("#div1").animate({
+                    height: '+=300px',
+                    width: '+=300px'
+                });
+            },function(){
+                $("#div1").animate({
+                    height: '100px',
+                    width: '100px'
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Bienvenidos a la Clase 5 de Progamación III</h1>
+    <button id="btn1">Animar</button>
+    
+    <div id="div1" style="width: 100px; height: 100px; background-color: red; position: absolute;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</body>
+
+</html>

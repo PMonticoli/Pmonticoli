@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 5 Librerias Javascript</title>
+    <style>
+        .done{
+            text-decoration: line-through;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btnAdd").click(function () {
+                var txtTodo = $("#txtTodo").val();
+                $("#todoList").append("<li><input type='checkbox' class='todo-check'/>"
+                                         + txtTodo + " <button type='button' class='btn-delete'>X</button></li>")
+            });
+
+            $(document).on('click', '.todo-check', function(){
+                $(this).parent().toggleClass("done");
+            });
+
+            $("#todoList").on('click', '.btn-delete', function(){
+                var item = this;
+                console.log(item);
+                $(item).parent().fadeOut('slow', function(){
+                    console.log(this);
+                    $(this).remove()
+                    // $(item).parent().remove();
+                });
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <h1>To do list</h1>
+    <label for="txtTodo">To do:</label>
+    <input type="text" name="txtTodo" id="txtTodo">
+    <button type="button" id="btnAdd">Add item</button>
+    <br>
+    <ul id="todoList">
+
+    </ul>
+</body>
+
+</html>

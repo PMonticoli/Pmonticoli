@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 5 Librerias Javascript</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("input").focus(function(){
+                $(this).css("background-color", "red");
+            });
+
+            $("input").blur(function() {
+                $(this).css("background-color", "green");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Bienvenidos a la Clase 5 de Progamación III</h1>
+    <label for="txtNombre">Nombre</label>
+    <input type="text" name="txtNombre" id="txtNombre">
+    <br><br>
+    <label for="txtApellido">Apellido</label>
+    <input type="text" name="txtApellido" id="txtApellido">
+    
+</body>
+
+</html>

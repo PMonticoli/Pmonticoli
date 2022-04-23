@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 5 Librerias Javascript</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#txtNombre").blur(function(){
+                var value = $(this).val();
+                alert("entró");
+                if(value === ""){
+                    alert("Este campo es requerido");
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <input type="text" id="txtNombre">
+</body>
+
+</html>

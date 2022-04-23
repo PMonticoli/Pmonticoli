@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 5 Librerias Javascript</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function(){
+                $("#div1").fadeIn();
+                $("#div2").fadeIn("slow");
+                $("#div3").fadeIn(3000);
+            });
+            $("#btn2").click(function(){
+                $("#div1").fadeOut();
+                $("#div2").fadeOut("slow");
+                $("#div3").fadeOut(3000);
+            });
+            $("#btn3").click(function(){
+                $("#div1").fadeToggle();
+                $("#div2").fadeToggle("slow");
+                $("#div3").fadeToggle(3000);
+            });
+            $("#btn4").click(function(){
+                $("#div1").fadeTo("slow", 0.15);
+                $("#div2").fadeTo("slow", 0.5);
+                $("#div3").fadeTo("slow", 1);
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Bienvenidos a la Clase 5 de Progamación III</h1>
+    <button id="btn1">Fade In</button>
+    <button id="btn2">Fade Out</button>
+    <button id="btn3">Toggle</button>
+    <button id="btn4">Fade To</button>
+    <div id="div1" style="width: 100px; height: 100px; display: none; background-color: red;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div id="div2" style="width: 100px; height: 100px; display: none; background-color: blue;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div id="div3" style="width: 100px; height: 100px; display: none; background-color: green;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+</body>
+
+</html>

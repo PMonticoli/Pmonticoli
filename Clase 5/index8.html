@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 5 Librerias Javascript</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#parrafo1").hover(function () {
+                $(this).css({"background-color": "blue", "font-size": "20px"});
+            },function(){
+                $(this).css({"background-color": "white", "font-size": "16px"});
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Bienvenidos a la Clase 5 de Progamación III</h1>
+    <p id="parrafo1">1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi placeat impedit cum earum aspernatur
+        perferendis illo? Vel quod ipsa illo earum, at ullam dolorem, commodi magni eaque id inventore impedit.</p>
+    <p class="parrafo-2">2 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi placeat impedit cum earum aspernatur
+        perferendis illo? Vel quod ipsa illo earum, at ullam dolorem, commodi magni eaque id inventore impedit.</p>
+    <p id="parrafo3">3 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi placeat impedit cum earum aspernatur
+        perferendis illo? Vel quod ipsa illo earum, at ullam dolorem, commodi magni eaque id inventore impedit.</p>
+    <br>
+    <button id="btn1">Ocultar/Mostrar</button>
+</body>
+
+</html>

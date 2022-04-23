@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 5 Librerias Javascript</title>
+    <style>
+        .panel {
+            padding: 5px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: solid 1px #c3c3c3;
+        }
+        #div2{
+            padding: 50px;
+            display: none;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#div1").click(function(){
+                $("#div2").slideToggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Bienvenidos a la Clase 5 de Progamación III</h1>
+    <div id="div1" class="panel">Click para hacer Slide down/up</div>
+    <div id="div2" class="panel">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 5 Librerias Javascript</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function(){
+                alert("Texto: "+ $("p").text());
+            });
+
+            $("#btn2").click(function(){
+                alert("HTML: "+ $("p").html());
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Bienvenidos a la Clase 5 de Progamación III</h1>
+    <p><strong>Texto de ejemplo</strong></p>
+    <button id="btn1">Mostrar texto</button>
+    <button id="btn2">Mostrar html</button>
+</body>
+
+</html>
