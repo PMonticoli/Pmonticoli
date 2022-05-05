@@ -7,15 +7,16 @@
     <style>
         .done{
             text-decoration: line-through;
+            color: red;
         }
     </style>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
         $(document).ready(function () {
-            $("#btnAdd").click(function () {
-                var txtTodo = $("#txtTodo").val();
-                $("#todoList").append("<li><input type='checkbox' class='todo-check'/>"
-                                         + txtTodo + " <button type='button' class='btn-delete'>X</button></li>")
+            $("#btnAdd").click(function(){
+            var txtTodo=$("#txtTodo").val();
+            $("#todoList").append("<li> <input type='checkbox' class='todo-check'/>"
+                +txtTodo+"<button type='button' class='btn-delete'>x</button></li>");    
             });
 
             $(document).on('click', '.todo-check', function(){
@@ -37,6 +38,7 @@
 </head>
 
 <body>
+
     <h1>To do list</h1>
     <label for="txtTodo">To do:</label>
     <input type="text" name="txtTodo" id="txtTodo">
