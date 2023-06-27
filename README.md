@@ -40,5 +40,5 @@ About me
 ---
 ### 🔥 My Stats:
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=PMonticoli&theme=dark&locale=es)](https://git.io/streak-stats)
-
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=PMonticoli&show_icons=true&theme=dark)
 
