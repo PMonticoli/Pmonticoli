@@ -5,12 +5,9 @@
 </div>
 
 ### About me
-- 🔭I’m currently working on a programming tesis at National Technical University 
-- I am competent in the following areas:
-- Front End Developer
-HTML, CSS, JS and Angular Framework
-- Back-End Developer
-Node.js (Express.js Framework) and Java.
-- Management and maintenance of databases:
- SQL (SQL server/ MYSQL) and NoSQL(mongoDB). 
+- 🔭I’m currently working on a programming tesis at National Technical University.
+- Full Stack Web Developer (HTML,CSS,JS,Angular,node.js,java).
+- Looking for an enthusiastic experience to improve my skils on Programing.
+- How to reach me : Mail me at pablo_monticoli@hotmail.com
+
 
