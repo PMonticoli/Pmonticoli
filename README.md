@@ -41,4 +41,4 @@ About me
 ### 🔥 My Stats:
 - [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=PMonticoli&theme=dark&locale=es)](https://git.io/streak-stats)
 - ![GitHub stats](https://github-readme-stats.vercel.app/api?username=PMonticoli&show_icons=true&theme=dark)
-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PMonticoli&hide_progress=false)
+- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?PMonticoli=anuraghazra&layout=compact)
