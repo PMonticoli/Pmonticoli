@@ -37,9 +37,8 @@
 </div>
 
 ---
-###
-<div align="left">
-<h3>🔥 Stats:</h3>
+### 🔥 My Stats:
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=PMonticoli&theme=dark&locale=es)](https://git.io/streak-stats)
-</div>
+
+
 
