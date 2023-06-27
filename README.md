@@ -10,4 +10,28 @@
 - Looking for an enthusiastic experience to improve my skils on Programing.
 - How to reach me : Mail me at pablo_monticoli@hotmail.com
 
+### 
+<div alaign="left">
+    <h3>🔨 Languages and Tools:</h3>
+    <div>
+        <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg" 
+        alt="HTML" title="HTML" width="40px" height="40px">&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain.svg" 
+        alt="CSS" title="CSS" width="40px" height="40px">&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" 
+        alt="javascript" title="javascript" width="40px" height="40px">&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/angularjs/angularjs-plain.svg" 
+        alt="Angular" title="Angular" width="40px" height="40px">&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-plain.svg" 
+        alt="java" title="java" width="40px" height="40px">&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-plain.svg" 
+        alt="c#" title="c#" width="40px" height="40px">&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-plain.svg" 
+        alt="nodejs" title="nodejs" width="40px" height="40px">&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-plain.svg" 
+        alt="mysql" title="mysql" width="40px" height="40px">&nbsp;
+        <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-plain.svg" 
+        alt="mongodb" title="mongodb" width="40px" height="40px">&nbsp;
+    </div>
+</div>
 
