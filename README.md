@@ -3,13 +3,14 @@
     <h2 align="center">Hi 👋, I'm Pablo.</h2>
     <h4 align="center">I'm a Programming Technician. I studied at the National Technological University and I’m passionate about programming</h4>
 </div>
-
+---
 ### About me
 - 🔭I’m currently working on a programming tesis at National Technical University.
 - Full Stack Web Developer (HTML,CSS,JS,Angular,node.js,java).
 - Looking for an enthusiastic experience to improve my skils on Programing.
 - How to reach me : Mail me at pablo_monticoli@hotmail.com
 
+---
 ### 
 <div align="left">
     <h3>🔨 Languages and Tools:</h3>
@@ -33,5 +34,12 @@
         <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-plain.svg" 
         alt="mongodb" title="mongodb" width="40px" height="40px">&nbsp;
     </div>
+</div>
+
+---
+###
+<div align="left">
+<h3>🔥 Stats:</h3>
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=PMonticoli&theme=dark&locale=es)](https://git.io/streak-stats)
 </div>
 
