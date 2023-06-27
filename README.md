@@ -4,7 +4,7 @@
     <h4 align="center">I'm a Programming Technician. I studied at the National Technological University and I’m passionate about programming</h4>
 </div>
 
-### Abaout me
+### About me
 - 🔭I’m currently working on a programming tesis at National Technical University 
 - I am competent in the following areas:
 - Front End Developer
