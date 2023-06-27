@@ -3,7 +3,9 @@
     <h2 align="center">Hi 👋, I'm Pablo.</h2>
     <h4 align="center">I'm a Programming Technician. I studied at the National Technological University and I’m passionate about programming</h4>
 </div>
-- 🔭 I’m currently working on a programming tesis at National Technical University 
+
+### Abaout me
+- 🔭I’m currently working on a programming tesis at National Technical University 
 - I am competent in the following areas:
 - Front End Developer
 HTML, CSS, JS and Angular Framework
