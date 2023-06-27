@@ -11,7 +11,7 @@
 - How to reach me : Mail me at pablo_monticoli@hotmail.com
 
 ### 
-<div alaign="left">
+<div align="left">
     <h3>🔨 Languages and Tools:</h3>
     <div>
         <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg" 
