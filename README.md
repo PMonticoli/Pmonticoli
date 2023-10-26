@@ -28,7 +28,7 @@ About me
         alt="java" title="java" width="40px" height="40px">&nbsp;
         <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-plain.svg" 
         alt="c#" title="c#" width="40px" height="40px">&nbsp;
-        <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/dot-net/dot-net-original.svg" 
+        <img src="https://github.com/devicons/devicon/blob/master/icons/dot-net/dot-net-plain.svg" 
         alt=".NET Core#" title=".NET Core#" width="40px" height="40px">&nbsp;
         <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-plain.svg" 
         alt="nodejs" title="nodejs" width="40px" height="40px">&nbsp;
