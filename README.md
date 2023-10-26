@@ -28,12 +28,14 @@ About me
         alt="java" title="java" width="40px" height="40px">&nbsp;
         <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-plain.svg" 
         alt="c#" title="c#" width="40px" height="40px">&nbsp;
+        <img src=" https://github.com/devicons/devicon/blob/master/icons/dotnetcore/dotnetcore-original.svg" 
+        alt=".NET Core#" title=".NET Core#" width="40px" height="40px">&nbsp;
         <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-plain.svg" 
         alt="nodejs" title="nodejs" width="40px" height="40px">&nbsp;
         <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-plain.svg" 
         alt="mysql" title="mysql" width="40px" height="40px">&nbsp;
         <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-plain.svg" 
-        alt="mongodb" title="mongodb" width="40px" height="40px">&nbsp;
+        alt="mongodb" title="mongodb" width="40px" height="40px">&nbsp;       
     </div>
 </div>
 
