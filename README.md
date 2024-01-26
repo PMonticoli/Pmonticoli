@@ -8,6 +8,7 @@
 About me
 - 🔭I just finished with my programming tesis at National Technical University.
 - Full Stack Web Developer (HTML,CSS,JS,Angular,node.js,java).
+- Back-End Developer .NET, c# and node.js.
 - Looking for an enthusiastic experience to improve my skils on Programing.
 - How to reach me : Mail me at pablo_monticoli@hotmail.com
 
